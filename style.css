@@ -59,8 +59,3 @@ font-weight: 800;
     color: #111111;
   text-decoration: underline;
 }
-.navigation ul li:not(:last-child)::after {
-  content: "|";
-  margin-left: 20px;
-  color: #666666;
-}
