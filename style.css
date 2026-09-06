@@ -34,3 +34,6 @@ font-weight: 800;
 .navigation{
   display: flex !important;
 }
+.nav li{
+  list-style-type: none;
+}
