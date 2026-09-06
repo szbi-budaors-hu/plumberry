@@ -85,3 +85,6 @@ font-weight: 800;
 .idol p{
   font-size: 15px;
 }
+.idol ul{
+  text-align: justify;
+}
