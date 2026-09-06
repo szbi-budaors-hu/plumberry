@@ -1,5 +1,7 @@
 html{
     background-color: #dadada;
+    scroll-behavior: smooth;
+    scrollbar-width:thin;
 }
     body {
       max-width: 1200px;
