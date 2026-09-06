@@ -39,7 +39,7 @@ font-weight: 800;
   gap: 20px;
   list-style-type: none;
   padding: 5px 20px;
-  margin: 0 auto;
+  margin: 0;
 }
 .navigation {
   display: flex !important;
