@@ -42,5 +42,5 @@ font-weight: 800;
   text-decoration: none;
 }
 .navigation li a:hover{
-  text-decoration: overline, underline;
+  text-decoration: underline;
 }
