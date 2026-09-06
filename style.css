@@ -74,11 +74,14 @@ font-weight: 800;
   
 }
 .divizor{
-  font-size: 20px;
+  font-size: 30px;
 }
 .divizor_under{
-  font-size: 15px;
+  font-size: 25px;
 }
 .idol li{
   list-style-type: "∙";
+}
+.idol p{
+  font-size: 15px;
 }
