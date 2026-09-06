@@ -34,13 +34,13 @@ font-weight: 800;
 .navigation{
   display: flex !important;
 }
-.nav ul li{
+.navigation ul li{
   list-style-type: none;
 }
-.nav li a{
+.navigation li a{
   color: #333333;
   text-decoration: none;
 }
-.nav li a{
+.navigation li a{
   text-decoration: overline, underline;
 }
