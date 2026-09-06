@@ -71,5 +71,11 @@ font-weight: 800;
 }
 .divizor, .divizor_under{
   text-decoration: underline;
-  padding-bottom: 10px;
+  
+}
+.divizor{
+  font-size: 14px;
+}
+.divizor_under{
+  font-size: 10px;
 }
