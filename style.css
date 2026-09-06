@@ -34,13 +34,18 @@ font-weight: 800;
 .navigation ul {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
   list-style-type: none;
   padding: 5px 20px;
-  margin: auto;
+  margin: 0 auto;
 }
-.navigation{
+.navigation {
   display: flex !important;
+  justify-content: center;
   max-width: 1200px;
+  margin: 0 auto;
 }
 .navigation ul li{
   gap:20px;
