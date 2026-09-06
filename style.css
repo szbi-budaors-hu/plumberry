@@ -1,0 +1,36 @@
+html{
+    background-color: #dadada;
+}
+    body {
+      max-width: 1200px;
+      margin: 0;
+      font-family: 'Courier New', Courier, monospace;
+      margin: auto;
+
+    }
+    .content {
+      padding: 20px;
+      min-height: calc(100vh - 120px);
+      box-sizing: border-box;
+    }
+    .footer {
+      background-color: #F1F1F1;
+      color: #333333;
+      text-align: center;
+      padding: 15px 0;
+      border-top: 1px solid #E0E0E0;
+      width: 1000px;
+      margin: auto;
+    }
+    .footer a{
+        color: #333333;
+    }
+      .footer a:hover{
+        color: #F00;
+    }
+        .footer p{
+font-weight: 800;
+}
+.navigation{
+  display: flex !important;
+}
