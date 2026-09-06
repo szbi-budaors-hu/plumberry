@@ -43,7 +43,7 @@ font-weight: 800;
   max-width: 1200px;
 }
 .navigation ul li{
-  list-style-type: none;
+  gap:20px  
 }
 .navigation li a{
   color: #333333;
