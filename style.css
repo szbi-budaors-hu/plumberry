@@ -79,3 +79,6 @@ font-weight: 800;
 .divizor_under{
   font-size: 15px;
 }
+.idol li{
+  list-style-type: "∙";
+}
