@@ -38,7 +38,7 @@ html{
       .footer a:hover{
         color: #F00;
     }
-        .footer p{
+        .footer p, .bould{
 font-weight: 800;
 }
 .navigation ul {
