@@ -35,8 +35,8 @@ font-weight: 800;
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  padding: 0;
-  margin: 0;
+  padding: 5px 10px;
+  margin: auto;
 }
 .navigation{
   display: flex !important;
