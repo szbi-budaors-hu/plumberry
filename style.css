@@ -170,7 +170,7 @@ y {
   text-align: center;
   line-height: 42px;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 900;
   border: 2px solid #333333;
   border-radius: 50%;
   text-decoration: none;
@@ -179,6 +179,7 @@ y {
   visibility: hidden;
   transition: opacity 0.3s ease, visibility 0.3s ease, background-color 0.2s, transform 0.2s;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+
 }
 
 #scrollTopBtn.show {
@@ -189,7 +190,7 @@ y {
 #scrollTopBtn:hover {
   background-color: #dadada;
   border-color: #adadad;
-  color: #ffffff;
+  color: #181717;
   transform: translateY(-3px);
 }
 
