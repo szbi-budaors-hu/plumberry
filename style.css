@@ -91,6 +91,16 @@ font-weight: 800;
 .idolul_alt{
   list-style-type: "⋆";
 }
-.idolul_alt p{
-  padding-top: 5px;
+
+.lin2{
+  text-decoration: underline red 2px;
+  padding: 5px;
+}
+.boulder{
+  font-weight: 800;
+  font-size: larger;
+}
+y{
+  font-size: x-large;
+  font-weight: 800;
 }
