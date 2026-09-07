@@ -248,3 +248,18 @@ y {
     font-size: 20px;
   }
 }
+.vezetoseg img{
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  width: 270px;
+  height: auto;
+}
+.vezetoseg td{
+  background-color: #fcfcfc;
+
+}
+.vezetoseg p{
+  text-align: center;
+  vertical-align:baseline;
+  margin: 5px 10px;
+}
