@@ -18,7 +18,6 @@ body {
 
 .idol p {
   text-align: justify;
-  font-size: 15px;
 }
 
 .idol ul {
@@ -31,6 +30,10 @@ body {
 
 .idolul_alt {
   list-style-type: "⋆";
+}
+
+.idolp {
+  font-size: 15px;
 }
 
 .quote {
@@ -69,6 +72,7 @@ y {
   font-size: x-large;
   font-weight: 800;
 }
+
 .navigation {
   display: flex !important;
   justify-content: center;
@@ -179,7 +183,6 @@ y {
   visibility: hidden;
   transition: opacity 0.3s ease, visibility 0.3s ease, background-color 0.2s, transform 0.2s;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-
 }
 
 #scrollTopBtn.show {
@@ -194,6 +197,58 @@ y {
   transform: translateY(-3px);
 }
 
+.subdive {
+  font-variant: small-caps;
+    border-bottom: 1px #adadad solid;
+}
+
+.vezetoseg, 
+.vezetoseg tbody {
+  display: block;
+  width: 100%;
+}
+
+.vezetoseg-row {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+}
+
+.vezetoseg td {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fcfcfc;
+  padding: 15px;
+  box-sizing: border-box;
+  flex: 1 1 calc(25% - 20px); 
+  min-width: 230px; 
+  max-width: 270px;
+}
+
+.vezetoseg img {
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.vezetoseg p {
+  text-align: center;
+  margin: 5px 0; 
+}
+
+.accessibility a {
+  color: #F00;
+  /*word-break:normal;*/
+}
+
+.accessibility a:hover {
+  color: rgb(42, 150, 42);
+}
 
 @media screen and (max-width: 1024px) {
   .footer {
@@ -247,19 +302,8 @@ y {
     line-height: 38px;
     font-size: 20px;
   }
-}
-.vezetoseg img{
-  aspect-ratio: 4/5;
-  object-fit: cover;
-  width: 270px;
-  height: auto;
-}
-.vezetoseg td{
-  background-color: #fcfcfc;
-
-}
-.vezetoseg p{
-  text-align: center;
-  vertical-align:baseline;
-  margin: 5px 10px;
+  .vezetoseg td {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
 }
