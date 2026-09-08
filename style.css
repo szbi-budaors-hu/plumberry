@@ -16,15 +16,15 @@ body {
   box-sizing: border-box;
 }
 
-.idol p {
+.mainest p {
   text-align: justify;
 }
 
-.idol ul {
+.mainest ul {
   text-align: justify;
 }
 
-.idol li {
+.mainest li {
   list-style-type: "∙";
 }
 
@@ -197,7 +197,7 @@ y {
   transform: translateY(-3px);
 }
 
-.subdive {
+.titulus {
   font-variant: small-caps;
     border-bottom: 1px #adadad solid;
 }
@@ -217,10 +217,11 @@ y {
 }
 
 .vezetoseg td {
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fcfcfc;
+  background-color: #fff;
   padding: 15px;
   box-sizing: border-box;
   flex: 1 1 calc(25% - 20px); 
@@ -233,7 +234,7 @@ y {
   object-fit: cover;
   width: 100%;
   height: auto;
-  border-radius: 4px;
+  border-radius: 5px;
 }
 
 .vezetoseg p {
