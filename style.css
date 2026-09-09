@@ -16,6 +16,56 @@ body {
   box-sizing: border-box;
 }
 
+.dok_links {
+  display: flex !important;
+  justify-content:space-evenly;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  list-style-type: none ;
+  margin: 0;
+
+}
+.dok_links li a{
+    padding: 5px;
+
+}
+
+.dok-listitem {
+  gap: 20px;
+  text-align: center;
+}
+
+.bigtext_alpha, .bt_a{
+  text-decoration: none;
+  text-align: right;
+  font-size: x-large;
+  text-transform: uppercase;
+  color:#101753;
+
+}
+.bt_a:hover{
+  color: red;
+  text-decoration:underline 2px red;
+}
+
+.dok-listitem a {
+  color: #333333;
+  text-decoration: none;
+  text-transform:uppercase;
+}
+
+.test{
+  width: 500px;
+  height:288px;
+}
+
+.dok_links li a:hover {
+  color: #000000;
+  text-decoration: underline;
+  background-color: #ffff0030;
+}
+
 .mainest p {
   text-align: justify;
 }
@@ -24,12 +74,8 @@ body {
   text-align: justify;
 }
 
-.mainest li {
-  list-style-type: "∙";
-}
-
 .idolul_alt {
-  list-style-type: "⋆";
+  list-style-type: "∙";
 }
 
 .idolp {
